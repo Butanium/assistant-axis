@@ -1,0 +1,38 @@
+/* Response samples */
+.response-box {
+  background: #f8f9fa;
+  border-left: 3px solid #dee2e6;
+  padding: 8px 12px;
+  margin: 8px 0;
+  font-size: 0.9em;
+  max-height: 150px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: max-height 0.3s ease;
+}
+.response-box.expanded {
+  max-height: none;
+}
+.response-box:hover {
+  border-left-color: #6c757d;
+}
+
+/* Evidence coding */
+.evidence { padding: 4px 8px; border-radius: 4px; font-size: 0.9em; }
+.evidence.strong { background: #c8e6c9; }
+.evidence.medium { background: #dcedc8; }
+.evidence.suggestive { background: #f0f4c3; }
+.evidence.against { background: #ffcdd2; }
+
+/* Finding boxes */
+.finding {
+  border: 2px solid #1976d2;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin: 16px 0;
+  background: #e3f2fd;
+}
+.finding.safety {
+  border-color: #d32f2f;
+  background: #ffebee;
+}
