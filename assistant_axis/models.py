@@ -40,6 +40,21 @@ MODEL_CONFIGS = {
         "capping_config": "llama-3.3-70b/capping_config.pt",
         "capping_experiment": "layers_56:72-p0.25",
     },
+    "google/gemma-3-4b-it": {
+        "target_layer": 17,
+        "total_layers": 34,
+        "short_name": "Gemma",
+    },
+    "Qwen/Qwen2.5-7B-Instruct": {
+        "target_layer": 16,
+        "total_layers": 32,
+        "short_name": "Qwen",
+    },
+    "meta-llama/Llama-3.1-8B-Instruct": {
+        "target_layer": 16,
+        "total_layers": 32,
+        "short_name": "Llama",
+    },
 }
 
 
